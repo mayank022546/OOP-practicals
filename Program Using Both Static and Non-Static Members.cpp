@@ -18,7 +18,7 @@ public:
              << ", Name: " << productName
              << ", Price: " << price << endl;
     }
-    static void showTotalProducts() {   // static member function
+    static void showTotalProducts() {   
         cout << "Total Products Created = " << totalProducts << endl;
     }
 };
